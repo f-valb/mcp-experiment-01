@@ -1,0 +1,17 @@
+# MCP Experiment 01 - Configuration
+# Directories the document reader is allowed to access
+allowed_directories:
+  - ~/Documents
+  - ~/Desktop
+
+# Maximum file size in MB for document reading
+max_file_size_mb: 50
+
+# Maximum characters to return in document content
+max_content_chars: 100000
+
+# Playwright browser timeout in milliseconds
+browser_timeout_ms: 30000
+
+# Run browser in headless mode
+browser_headless: true
